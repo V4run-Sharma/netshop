@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --prim: #0f766e;
+  --light: #faf3f4;
+  --bglight: #faf3f440;
+  --dark: #0f0b1a;
+  --bgdark: #0f0b1a40;
+  --danger: #A64253;
+}
+
+.auth-bg {
+  background: var(--bglight);
+  backdrop-filter: blur(12px);
+}
+
+.dark-auth-bg {
+  background: var(--bgdark);
+  backdrop-filter: blur(12px);
+}

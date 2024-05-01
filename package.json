@@ -13,12 +13,18 @@
     "@nextui-org/react": "^2.3.5",
     "@nextui-org/system": "^2.1.2",
     "@nextui-org/theme": "^2.2.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "framer-motion": "^11.1.7",
+    "lucide-react": "^0.372.0",
+    "mongoose": "^8.3.3",
     "next": "14.2.2",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
