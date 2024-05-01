@@ -17,7 +17,7 @@ export async function POST(req: Request) {
       throw new NextResponse("Username already exists");
     }
     const user = { user_name: username, email, password: hashedPassword };
-    const newUser = await User.create(user);
+    await User.create(user);
     return NextResponse.json(`User Created`, { status: 200 });
   } catch (error) {
     return NextResponse.json(`Internal Error: ${error}`, { status: 500 });

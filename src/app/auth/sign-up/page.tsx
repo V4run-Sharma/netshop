@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 
 import {
   Button,
@@ -13,9 +14,8 @@ import {
   Radio,
   RadioGroup,
 } from "@nextui-org/react";
+
 import { EyeIcon, EyeOffIcon, X } from "lucide-react";
-import Link from "next/link";
-import { set } from "mongoose";
 
 const SignUp = () => {
   const [username, setUsername] = useState("");
